@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
-    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: 'Tilt Neon', cursive;
+    letter-spacing: 2px;
 }
 .head{
     width: 100vw;
@@ -13,25 +16,21 @@
     border-bottom: 5px solid rgb(218, 45, 174);
 }
 .head_container{
-    /* background-color: aquamarine; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 0px 10px;
 }
 .head_container--1{
-    /* background-color: red; */
     width: 50%;
     align-self:last baseline;
 }
 .head_container--2{
-    /* background-color: red; */
     width: 50%;
 }
 .head_container--2_ul{
     display: flex;
     flex-direction: row;
-    /* background-color: pink;  */
     width: 100%;
     justify-content: space-around;
     align-items: center;
@@ -41,12 +40,11 @@
     list-style: none;
     cursor: pointer;
     font-size: 16px;
-    /* border-bottom: 1px solid rgb(60, 221, 122); */
     padding: 1px;
     transition: 1s auto;
 }
 .head_ul--li:hover{
-    /* background: rgb(60, 221, 122); */
+
 }
 .head_ul--li_button{
 font-size: 17px;
@@ -60,7 +58,6 @@ font-size: 17px;
 .about_companey{
     width: 100vw;
     min-height: 500px;
-    /* background-color: grey; */
     display: flex;
     border-bottom: 5px solid orange;
 }
@@ -75,12 +72,12 @@ font-size: 17px;
     padding-right: 30px;
 }
 .companey_right{
-    /* background-color: aquamarine; */
     width: 50%;
-    background: url('./Assets/Snapchat-948550809.jpg');
+    background: url('./Assets/bg.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-left: 5px solid purple;
 }
 .c_h1{
     font-size: 40px;
@@ -111,7 +108,7 @@ font-size: 17px;
     display: flex;
     width: 100%;
     height: 100%;
-    border-bottom: 5px solid orange;
+    border-bottom: 5px solid rgb(229, 255, 0);
 }
 .cta_text{
     width: 70%;
@@ -122,6 +119,7 @@ font-size: 17px;
     height: 100%;
     padding-left: 70px;
     padding-right: 20px;
+    border-right: 5px solid red;
 }
 .cta_text p{
     
@@ -131,6 +129,10 @@ font-size: 17px;
    align-items: center;
    justify-content: center; 
    width: 30%;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
 .cta_button a{
     text-decoration: none;
