@@ -18,7 +18,7 @@ head_container.appendChild(head_container__1)
 // Logo
 let head_container__img = document.createElement('img')
 head_container__img.classList.add('head_container__img')
-head_container__img.setAttribute('src','./Assets/logo.png')
+head_container__img.setAttribute('src', './Assets/logo.png')
 head_container__1.appendChild(head_container__img)
 
 // void Space
@@ -86,5 +86,24 @@ head_ul__li5.appendChild(button1)
 head_container__2_ul.appendChild(head_ul__li5)
 
 // Section 2
+let about_companey = document.createElement('section')
+about_companey.classList.add('about_companey')
+let companey_left = document.createElement('div')
+companey_left.classList.add('companey_left')
+about_companey.appendChild(companey_left)
+let c_h1 = document.createElement('h1')
+c_h1.classList.add('c_h1')
+c_h1.innerText = " Lorem ipsum dolor sit amet consectetur adipisicing."
+companey_left.appendChild(c_h1)
+let c_hr = document.createElement('hr')
+c_hr.classList.add('c_hr')
+companey_left.appendChild(c_hr)
+root.appendChild(about_companey)
+let c_p = document.createElement('p')
+c_p.innerText = `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae quidem sit, eligendi sequi placeat sed?`
+companey_left.appendChild(c_p)
 
+let companey_right = document.createElement('div')
+companey_right.classList.add('companey_right')
+about_companey.appendChild(companey_right)
 
