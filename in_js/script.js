@@ -140,3 +140,40 @@ h4.innerText = "copyright@2023 Abhishek Pathak"
 content.appendChild(h4)
 root.appendChild(footer)
 
+
+// Meta tags
+document.title= "In JavaScript"
+let head = document.querySelector('head');
+let meta1 = document.createElement('meta')
+meta1.setAttribute('name',"Website in JS")
+meta1.setAttribute('content',"Website Entirely made using JS ")
+head.appendChild(meta1)
+let meta2 = document.createElement('meta')
+meta2.setAttribute('name',"keywords")
+meta2.setAttribute('content',"HTML, CSS, JS, JavaScript")
+head.appendChild(meta2)
+let meta3 = document.createElement('meta')
+meta3.setAttribute('rel',"shortcut icon")
+meta3.setAttribute('type',"image/x-icon")
+meta3.setAttribute('href',"./Assets/logo.png")
+head.appendChild(meta3)
+let meta4 = document.createElement('meta')
+meta4.setAttribute('name',"author")
+meta4.setAttribute('content',"Abhishek Pathak")
+head.appendChild(meta4)
+let meta5 = document.createElement('meta')
+meta5.setAttribute('charset',"UTF-8")
+head.appendChild(meta5)
+let meta6 = document.createElement('meta')
+meta6.setAttribute('http-equiv',"X-UA-Compatible")
+meta6.setAttribute('content',"IE=edge")
+head.appendChild(meta6)
+let meta7 = document.createElement('meta')
+meta7.setAttribute('name',"viewport")
+meta7.setAttribute('content',"width=device-width, initial-scale=1.0")
+head.appendChild(meta7)
+let link1 = document.createElement('link')
+link1.type = "text/css"
+link1.rel = "stylesheet"
+link1.href = "./style.css"
+head.appendChild(link1)
