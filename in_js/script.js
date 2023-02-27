@@ -129,5 +129,14 @@ cta_button.appendChild(a)
 cta_container.appendChild(cta_button)
 root.appendChild(cta)
 
-
+// Footer
+let footer = document.createElement('footer')
+let content = document.createElement('div')
+content.classList.add('content')
+footer.appendChild(content);
+let h4 = document.createElement('h4')
+h4.classList.add('h4')
+h4.innerText = "copyright@2023 Abhishek Pathak"
+content.appendChild(h4)
+root.appendChild(footer)
 
