@@ -102,8 +102,32 @@ root.appendChild(about_companey)
 let c_p = document.createElement('p')
 c_p.innerText = `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae quidem sit, eligendi sequi placeat sed?`
 companey_left.appendChild(c_p)
-
 let companey_right = document.createElement('div')
 companey_right.classList.add('companey_right')
 about_companey.appendChild(companey_right)
+
+
+// Section cta
+let cta = document.createElement('section')
+cta.classList.add('cta')
+let cta_container = document.createElement('div')
+cta_container.classList.add('cta_container')
+cta.appendChild(cta_container)
+let cta_text = document.createElement('div')
+cta_text.classList.add('cta_text')
+cta_container.appendChild(cta_text)
+let h3 = document.createElement('h3')
+h3.classList.add("h3");
+h3.innerText = " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate."
+cta_text.appendChild(h3)
+let cta_button = document.createElement('div')
+cta_button.classList.add('cta_button')
+let a  = document.createElement('a')
+a.innerText = "To Moon"
+a.href = "#"
+cta_button.appendChild(a)
+cta_container.appendChild(cta_button)
+root.appendChild(cta)
+
+
 
