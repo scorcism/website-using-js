@@ -21,14 +21,14 @@
     justify-content: space-between;
     padding: 0px 10px;
 }
-.head_container--1{
+.head_container__1{
     width: 50%;
     align-self:last baseline;
 }
-.head_container--2{
+.head_container__2{
     width: 50%;
 }
-.head_container--2_ul{
+.head_container__2_ul{
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -36,17 +36,17 @@
     align-items: center;
     height: 100%;
 }
-.head_ul--li{
+.head_ul__li{
     list-style: none;
     cursor: pointer;
     font-size: 16px;
     padding: 1px;
     transition: 1s auto;
 }
-.head_ul--li:hover{
+.head_ul__li:hover{
 
 }
-.head_ul--li_button{
+.head_ul__li_button{
 font-size: 17px;
     padding: 4px 12px;
     border: transparent;
