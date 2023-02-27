@@ -172,8 +172,8 @@ let meta7 = document.createElement('meta')
 meta7.setAttribute('name',"viewport")
 meta7.setAttribute('content',"width=device-width, initial-scale=1.0")
 head.appendChild(meta7)
-let link1 = document.createElement('link')
-link1.type = "text/css"
-link1.rel = "stylesheet"
-link1.href = "./style.css"
-head.appendChild(link1)
+// let link1 = document.createElement('link')
+// link1.type = "text/css"
+// link1.rel = "stylesheet"
+// link1.href = "./style.css"
+// head.appendChild(link1)
