@@ -1,7 +1,6 @@
 ## Website made entirely in JS
 
 [![Private Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.png?v=103)]( https://github.com/scorcism/website-using-js)
-
 <br>
 
 ## Attempt to create, entire webisite using JS
