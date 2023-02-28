@@ -1,6 +1,9 @@
-# Website in JS
----
-### In Progress
+## Website made entirely in JS
+
+[![Private Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.png?v=103)]( https://github.com/scorcism/website-using-js)
+
+<br>
+
 ## Attempt to create, entire webisite using JS
 ---
 ### Webistes Links
@@ -10,4 +13,10 @@
 - In JS : contains the webiste made using js
 - In html : contains the webiste made using HTML
 
-Feel free to contribute
+
+.....
+
+# Credits 
+* [Abhishek Pathak](https://github.com/scorcism)
+
+
