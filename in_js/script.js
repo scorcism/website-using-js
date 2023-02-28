@@ -41,7 +41,8 @@ let head_ul__li1 = document.createElement('li')
 head_ul__li1.classList.add('head_ul__li')
 let a1 = document.createElement('a')
 let a_text1 = document.createTextNode('Github')
-a1.href = "#"
+a1.href = "https://github.com/scorcism/website-using-js"
+a1.target = "_blank"
 a1.appendChild(a_text1)
 head_ul__li1.appendChild(a1)
 head_container__2_ul.appendChild(head_ul__li1)
