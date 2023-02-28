@@ -13,9 +13,11 @@
 - In html : contains the webiste made using HTML
 
 
-.....
-
 # Credits 
 * [Abhishek Pathak](https://github.com/scorcism)
+
+<a href = "https://github.com/Tanu-N-Prabhu/Python/graphs/contributors">
+  <img src = "https://contrib.rocks/image?repo = scorcism/website-using-js"/>
+</a>
 
 
