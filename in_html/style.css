@@ -161,3 +161,32 @@ footer .content h4{
     font-weight: 600;
     text-transform: capitalize;
 }
+
+/* responsive styles */
+
+/* for header */
+@media screen and (max-width: 600px) {
+    .head_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0px 10px;
+    }
+
+    .head_container__1, .head_container__2 {
+        width: 100%;
+    }
+    
+    .head_container__2_ul{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+    }
+
+    .head {
+        height: 20%;
+    }
+  }
