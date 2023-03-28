@@ -196,15 +196,11 @@ footer .content h4{
     }
 
     /* about company section */
-    .about_companey{
-        width: 100%;
-        min-height: 500px;
-        /* display: flex; */
-        border-bottom: 5px solid orange;
+    .about_companey {
+        flex-direction: column;
     }
-    
-    /* .companey_left, .companey_right {
+
+    .companey_right, .companey_left {
         width: 100%;
-        display: block;
-    } */
+    }
   }
