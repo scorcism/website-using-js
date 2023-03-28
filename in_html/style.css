@@ -203,4 +203,13 @@ footer .content h4{
     .companey_right, .companey_left {
         width: 100%;
     }
+
+    /* cta_container section */
+    .cta_container {
+        flex-direction: column;
+    }
+
+    .cta_text, .cta_button {
+        width: 100%;
+    }
   }
