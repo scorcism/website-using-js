@@ -193,7 +193,8 @@ footer .content h4{
     
     .head_container__2_ul{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
         width: 100%;
         justify-content: space-around;
         align-items: center;
