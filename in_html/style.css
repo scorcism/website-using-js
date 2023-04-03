@@ -214,14 +214,6 @@ footer .content h4{
         object-fit: cover;
     }
 
-    /* .companey_right {
-        background: url('./Assets/bg.jpg');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        border-left: 5px solid purple;
-    } */
-
     /* cta_container section */
     .cta_container {
         flex-direction: column;
