@@ -58,7 +58,7 @@ Once you submit your PR, we will review your proposal. We may ask questions or r
 
 ### Your PR is merged!
 
-Congratulations :tada::tada: The GitHub team thanks you :sparkles:.
+Congratulations :tada::tada::sparkles:.
 
 Once your PR is merged, your contributions will be publicly visible.
 
